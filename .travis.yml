@@ -25,6 +25,9 @@ addons:
   # - sudo apt-get update -qq
   # - sudo apt-get install -qq google-chrome-stable
 
+before_install:
+ - npm i -g npm@5.6.0
+
 install:
   - npm install
 
